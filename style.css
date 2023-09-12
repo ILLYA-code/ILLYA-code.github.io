@@ -1,6 +1,5 @@
 #container {
     width: 100vw;
-    padding: 5vw;
     padding-top: 200px;
 }
 
@@ -20,5 +19,5 @@
 }
 
 body {
-    background: #ffd4d4;
+    background: #def5ff;
 }
