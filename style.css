@@ -6,7 +6,7 @@
 #text {
     width: 100vw;
     text-align: center;
-    position: absolute;
+    position: relative;
     display: block;
     font-size: 48px;
     font-family: Montserrat;
@@ -14,13 +14,13 @@
 
 #container {
     width: 100vw;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 #pay {
-    position: absolute;
-    display: block;
-    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
     text-decoration: none;
     color: white;
     padding: 20px 40px;
