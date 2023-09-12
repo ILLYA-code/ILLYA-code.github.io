@@ -33,7 +33,7 @@ body {
 @keyframes anim {
     0% {background: #e6f8ff;}
     25% {background: #e6ffe7;}
-    50% {background:rgb(255, 230, 230)f;}
+    50% {background:rgb(255, 230, 230);}
     75% {background: #fee6ff;}
     100% {background: #e6f8ff;}
 }
