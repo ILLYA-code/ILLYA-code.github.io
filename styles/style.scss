@@ -1,0 +1,265 @@
+body {
+    background: #494949;
+}
+
+header {
+    width: 100%;
+    max-width: 980px;
+    background-image: url("C:/Users/illya/collage/october23/creator-sites/images/_995f97f9-9075-4e5a-aad2-9485a3202048.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+
+    .header {
+        width: 100%;
+        height: 100%;
+        background: #000000c4;
+        color: white;
+        padding: 76px;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 120%;
+
+        .header_text {
+            padding: 3vw;
+            border: 2px solid white;
+            font-family: Comfortaa;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 80px;
+            font-size: 20px;
+            text-shadow: 0px 0px 5px rgb(0, 0, 0);
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            color: white;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: white;
+            }
+
+            .about_me,
+            .contacts,
+            .pay {
+                padding: 10px 20px;
+                border-top: 1px solid white;
+            }
+
+            .about_me:hover,
+            .contacts:hover,
+            .pay:hover {
+                text-shadow: 0px 0px 20px rgb(0, 0, 0);
+                border-bottom: 2px solid rgb(161, 161, 6);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.adaptive_description {
+    width: 490px;
+    line-height: 100%;
+    padding: 20px;
+
+    .h {
+        padding-bottom: 10px;
+    }
+
+    .adaptive_description_text {
+        font-size: 20px;
+    }
+}
+
+.from_me {
+    line-height: 120%;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    background: #252323;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 2px solid rgb(255, 255, 255);
+
+    .me_header {
+        padding-left: 20px;
+        padding: 20px;
+        background: linear-gradient(90deg, rgb(0, 0, 0), transparent);
+    }
+
+    .adaptive {
+        font-size: 35px;
+        background-image: url("C:/Users/illya/collage/october23/creator-sites/images/_7a39b7ba-12a7-43a9-903b-afd447e0ec11.jpg");
+        background-size: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .adaptive_2 {
+            width: 100%;
+            height: 100%;
+            background: #000000af;
+            padding: 20px;
+            padding-top: 10px;
+            display: flex;
+
+            .adaptive_example {
+                width: 50%;
+                padding: 40px;
+
+                .desktop {
+                    width: 230px;
+                    height: 140px;
+                    background: #000;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px 10px rgba(163, 163, 163, 0.158);
+                    padding: 4px;
+
+                    .vision {
+                        width: 100%;
+                        height: 100%;
+                        background: white;
+                        border-radius: 6px;
+                        background: #403c3c;
+                        padding: 10px;
+
+                        .v_header {
+                            width: 100%;
+                            height: 20px;
+                            border-radius: 4px;
+                            background: #bcb5b5;
+                        }
+
+                        .v_box {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 10px;
+
+                            .el1 {
+                                width: 20%;
+                                height: 30px;
+                                background: #000;
+                                border-radius: 4px;
+                                background: #bcb5b5;
+                            }
+                        }
+
+                        .v_footer {
+                            width: 100%;
+                            border-radius: 4px;
+                            background: #bcb5b5;
+                            height: 40px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                .phone {
+                    width: 100px;
+                    height: 180px;
+                    background: #000;
+                    border-radius: 10px;
+                    padding: 8px 4px;
+                    margin-left: 170px;
+                    margin-top: -50px;
+                    box-shadow: 0px 0px 10px 10px rgba(163, 163, 163, 0.158);
+
+
+                    .vision {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 6px;
+                        background: #403c3c;
+                        padding: 6px;
+                        overflow: hidden;
+
+                        .v_header {
+                            width: 100%;
+                            height: 20px;
+                            border-radius: 4px;
+                            background: #bcb5b5;
+                        }
+
+                        .v_thing {
+                            width: 60%;
+                            height: 30px;
+                            border-radius: 4px;
+                            background: #bcb5b5;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .design {
+        background-image: url("C:/Users/illya/collage/october23/creator-sites/images/_b4bb0511-ae0d-4962-94ca-a144bf95bba8.jpg");
+        border-top: 2px solid white;
+
+        .design_2 {
+            width: 100%;
+            height: 100%;
+            background: #000000af;
+            padding: 20px;
+            padding-top: 10px;
+            display: flex;
+
+            .design_images {
+                .circle {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    background: #ae8888;
+                    margin-top: 80px;
+                    margin-left: 90px;
+                    box-shadow: 0px 0px 10px 10px rgba(163, 163, 163, 0.158);
+                }
+
+                .ractangle {
+                    width: 120px;
+                    height: 120px;
+                    background: #ae8888;
+                    margin-top: -60px;
+                    margin-left: 130px;
+                    border-top-left-radius: 20px;
+                    box-shadow: 0px 0px 10px 10px rgba(163, 163, 163, 0.158), -2px -2px 4px white;
+                }
+            }
+        }
+    }
+
+    .identifity {
+        background-image: url("C:/Users/illya/collage/october23/creator-sites/images/_5a86613d-1cdf-4e11-ba58-b7609042ac08.jpg");
+        border-top: 2px solid white;
+
+        .identifity_2 {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.868), transparent);
+            padding: 20px;
+            padding-top: 10px;
+            display: flex;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .about,
+    .adaptive_2,
+    .design_2,
+    .identifity_2 {
+        flex-wrap: wrap;
+    }
+}
